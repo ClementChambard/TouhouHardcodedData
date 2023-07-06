@@ -1,5 +1,94 @@
 {
     "version": 18,
+    "option_count": 4,
+    "players": [
+        {
+            "shottypes": [
+                { "anm": "pl00.anm", "sht": "pl00.sht", "option_pos_lookup": [ 0, 1, 3, 6, 10, 11, 13, 16 ] }
+            ],
+            "option": 15,
+            "option_max": 16,
+            "hitbox": 3.0,
+            "grazebox": 5.0,
+            "itembox": 60.0,
+            "attractbox": 100.0
+        },
+        {
+            "shottypes": [
+                { "anm": "pl01.anm", "sht": "pl01.sht", "option_pos_lookup": [ 0, 1, 3, 6, 10, 11, 13, 16 ] }
+            ],
+            "option": 17,
+            "option_max": 18,
+            "hitbox": 3.0,
+            "grazebox": 5.0,
+            "itembox": 60.0,
+            "attractbox": 100.0
+        },
+        {
+            "shottypes": [
+                { "anm": "pl02.anm", "sht": "pl02.sht", "option_pos_lookup": [ 0, 1, 3, 6, 10, 11, 13, 16 ] }
+            ],
+            "option": 12,
+            "option_max": 13,
+            "hitbox": 3.0,
+            "grazebox": 5.0,
+            "itembox": 60.0,
+            "attractbox": 100.0
+        },
+        {
+            "shottypes": [
+                { "anm": "pl03.anm", "sht": "pl03.sht", "option_pos_lookup": [ 0, 1, 3, 6, 10, 11, 13, 16 ] }
+            ],
+            "option": 11,
+            "option_max": 12,
+            "hitbox": 3.0,
+            "grazebox": 5.0,
+            "itembox": 60.0,
+            "attractbox": 100.0
+        }
+    ],
+    "item_anm_script_ids": [
+        { "id_1":  -1, "id_2":   -1 },
+        { "id_1": 112, "id_2":  134 },
+        { "id_1": 113, "id_2":  135 },
+        { "id_1": 114, "id_2":  136 },
+        { "id_1": 115, "id_2":  137 },
+        { "id_1": 116, "id_2":  138 },
+        { "id_1": 117, "id_2":  139 },
+        { "id_1": 118, "id_2":  140 },
+        { "id_1": 119, "id_2":  141 },
+        { "id_1": 120, "id_2":   -1 },
+        { "id_1": 121, "id_2":   -1 },
+        { "id_1": 122, "id_2":   -1 },
+        { "id_1": 123, "id_2":   -1 },
+        { "id_1": 124, "id_2":   -1 },
+        { "id_1": 125, "id_2":   -1 },
+        { "id_1":  -1, "id_2":   -1 },
+        { "id_1": 129, "id_2":   -1 },
+        { "id_1":   3, "id_2":    3 },
+        { "id_1":   3, "id_2":    3 },
+        { "id_1":   3, "id_2":    3 },
+        { "id_1":   3, "id_2":    3 },
+        { "id_1":   3, "id_2":    3 },
+        { "id_1":   3, "id_2":    3 },
+        { "id_1":   3, "id_2":    3 },
+        { "id_1":   3, "id_2":    3 },
+        { "id_1":   3, "id_2":    3 },
+        { "id_1":   3, "id_2":    3 },
+        { "id_1":   3, "id_2":    3 },
+        { "id_1":   3, "id_2":    3 },
+        { "id_1":   3, "id_2":    3 },
+        { "id_1":   3, "id_2":    3 },
+        { "id_1":   3, "id_2":    3 }
+    ],
+    "laser_data": {
+        "spawn_anm_first": 56,
+        "laser_curve": {
+            "anm_type_0": 322,
+            "anm_first": 142,
+            "sprite_first": 524
+        }
+    },
     "bullet_type_table": [
         {
             "script": 35,

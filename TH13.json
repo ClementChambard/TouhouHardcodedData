@@ -1,0 +1,58 @@
+{
+    "version": 13,
+    "option_count": 4,
+    "players": [
+        {
+            "shottypes": [
+                { "anm": "pl00.anm", "sht": "pl00a.sht", "option_pos_lookup": [ 0, 1, 3, 6, 10, 11, 13, 16 ] }
+            ],
+            "option": 16,
+            "option_max": 17,
+            "hitbox": 3.0,
+            "grazebox": 5.0,
+            "itembox": 60.0,
+            "attractbox": 100.0
+        },
+        {
+            "shottypes": [
+                { "anm": "pl01.anm", "sht": "pl01a.sht", "option_pos_lookup": [ 0, 1, 3, 6, 10, 11, 13, 16 ] }
+            ],
+            "option": 11,
+            "option_max": 13,
+            "hitbox": 3.0,
+            "grazebox": 5.0,
+            "itembox": 60.0,
+            "attractbox": 100.0
+        },
+        {
+            "shottypes": [
+                { "anm": "pl02.anm", "sht": "pl02a.sht", "option_pos_lookup": [ 0, 1, 3, 6, 10, 11, 13, 16 ] }
+            ],
+            "option": 11,
+            "option_max": 12,
+            "hitbox": 3.0,
+            "grazebox": 5.0,
+            "itembox": 60.0,
+            "attractbox": 100.0
+        },
+        {
+            "shottypes": [
+                { "anm": "pl03.anm", "sht": "pl03a.sht", "option_pos_lookup": [ 0, 1, 3, 6, 10, 11, 13, 16 ] }
+            ],
+            "option": 8,
+            "option_max": 9,
+            "hitbox": 3.0,
+            "grazebox": 5.0,
+            "itembox": 60.0,
+            "attractbox": 100.0
+        }
+    ],
+    "laser_data": {
+        "spawn_anm_first": 56,
+        "laser_curve": {
+            "anm_type_0": 113,
+            "anm_first": 129,
+            "sprite_first": 526
+        }
+    }
+}
