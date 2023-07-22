@@ -1,6 +1,25 @@
 {
   "version": 17,
   "option_count": 4,
+  "gui": {
+    "get_spell_card_bonus": 61,
+    "bonus_failed": 62,
+    "full_power": 63,
+    "high_score": 64,
+    "extend": 65,
+    "challenge_next_stage": 66,
+    "item_get_border_line": 69,
+    "stars_first": 70,
+    "difficulty_top_first": 81,
+    "difficulty_side_first": 87,
+    "spellcard_endtime": 96,
+    "boss_indicator": 112,
+    "shottype_side_first": 113,
+    "demo_play": 122,
+    "stage_clear": 123,
+    "boss_bar_first": 391
+  },
+  "popup_text_sprite": 259,
   "players": [
     {
       "shottypes": [
