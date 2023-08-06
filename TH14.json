@@ -17,6 +17,9 @@
     "stage_clear": 112,
     "boss_bar_first": 232
   },
+  "effect": {
+    "eff2_startanm": 152
+  },
   "popup_text_sprite": 259,
   "version": 14,
   "option_count": 4,

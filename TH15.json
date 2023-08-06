@@ -17,6 +17,9 @@
     "stage_clear": 113,
     "boss_bar_first": 237
   },
+  "effect": {
+    "eff2_startanm": 152
+  },
   "popup_text_sprite": 259,
   "option_count": 4,
   "players": [
