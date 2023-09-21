@@ -16,6 +16,9 @@
     "spellcard_endtime": 95,
     "boss_indicator": 111,
     "stage_clear": 115,
+    "speech_bubble": 228,
+    "speech_bubble_child": 180,
+    "boss_name_first": 157,
     "boss_bar_first": 240
   },
   "effect": {
@@ -32,6 +35,7 @@
           "option_pos_lookup": [0, 1, 3, 6, 10, 11, 13, 16]
         }
       ],
+      "msg_face_anim_script": 0,
       "option": 16,
       "option_max": 17,
       "hitbox": 3.0,
@@ -47,6 +51,7 @@
           "option_pos_lookup": [0, 1, 3, 6, 10, 11, 13, 16]
         }
       ],
+      "msg_face_anim_script": 0,
       "option": 11,
       "option_max": 13,
       "hitbox": 3.0,
@@ -62,6 +67,7 @@
           "option_pos_lookup": [0, 1, 3, 6, 10, 11, 13, 16]
         }
       ],
+      "msg_face_anim_script": 0,
       "option": 11,
       "option_max": 12,
       "hitbox": 3.0,
@@ -77,6 +83,7 @@
           "option_pos_lookup": [0, 1, 3, 6, 10, 11, 13, 16]
         }
       ],
+      "msg_face_anim_script": 0,
       "option": 8,
       "option_max": 9,
       "hitbox": 3.0,

@@ -17,6 +17,9 @@
     "shottype_side_first": -1,
     "demo_play": 110,
     "stage_clear": 111,
+    "speech_bubble": 287,
+    "speech_bubble_child": 183,
+    "boss_name_first": 157,
     "boss_bar_first": 378
   },
   "effect": {
@@ -29,9 +32,11 @@
         {
           "anm": "pl00.anm",
           "sht": "pl00.sht",
+          "msg": 0,
           "option_pos_lookup": [0, 1, 3, 6, 10, 11, 13, 16]
         }
       ],
+      "msg_face_anim_script": 0,
       "option": 15,
       "option_max": 16,
       "hitbox": 3.0,
@@ -44,9 +49,11 @@
         {
           "anm": "pl01.anm",
           "sht": "pl01.sht",
+          "msg": 1,
           "option_pos_lookup": [0, 1, 3, 6, 10, 11, 13, 16]
         }
       ],
+      "msg_face_anim_script": 0,
       "option": 17,
       "option_max": 18,
       "hitbox": 3.0,
@@ -59,9 +66,11 @@
         {
           "anm": "pl02.anm",
           "sht": "pl02.sht",
+          "msg": 2,
           "option_pos_lookup": [0, 1, 3, 6, 10, 11, 13, 16]
         }
       ],
+      "msg_face_anim_script": 0,
       "option": 12,
       "option_max": 13,
       "hitbox": 3.0,
@@ -74,9 +83,11 @@
         {
           "anm": "pl03.anm",
           "sht": "pl03.sht",
+          "msg": 3,
           "option_pos_lookup": [0, 1, 3, 6, 10, 11, 13, 16]
         }
       ],
+      "msg_face_anim_script": 0,
       "option": 11,
       "option_max": 12,
       "hitbox": 3.0,

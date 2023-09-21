@@ -17,6 +17,9 @@
     "shottype_side_first": 113,
     "demo_play": 122,
     "stage_clear": 123,
+    "speech_bubble": 287,
+    "speech_bubble_child": 183,
+    "boss_name_first": 167,
     "boss_bar_first": 391
   },
   "effect": {
@@ -29,19 +32,23 @@
         {
           "anm": "pl00.anm",
           "sht": "pl00a.sht",
+          "msg": 0,
           "option_pos_lookup": [0, 1, 3, 6, 10, 11, 13, 16]
         },
         {
           "anm": "pl00.anm",
           "sht": "pl00b.sht",
+          "msg": 1,
           "option_pos_lookup": [0, 1, 3, 6, 10, 11, 13, 16]
         },
         {
           "anm": "pl00.anm",
           "sht": "pl00c.sht",
+          "msg": 2,
           "option_pos_lookup": [0, 1, 3, 6, 10, 11, 13, 16]
         }
       ],
+      "msg_face_anim_script": 40,
       "option": 15,
       "option_max": 16,
       "hitbox": 3.0,
@@ -54,19 +61,23 @@
         {
           "anm": "pl01.anm",
           "sht": "pl01a.sht",
+          "msg": 3,
           "option_pos_lookup": [0, 1, 3, 6, 10, 11, 13, 16]
         },
         {
           "anm": "pl01.anm",
           "sht": "pl01b.sht",
+          "msg": 4,
           "option_pos_lookup": [0, 1, 3, 6, 10, 11, 13, 16]
         },
         {
           "anm": "pl01.anm",
           "sht": "pl01c.sht",
+          "msg": 5,
           "option_pos_lookup": [0, 1, 3, 6, 10, 11, 13, 16]
         }
       ],
+      "msg_face_anim_script": 46,
       "option": 17,
       "option_max": 18,
       "hitbox": 3.0,
@@ -79,19 +90,23 @@
         {
           "anm": "pl02.anm",
           "sht": "pl02a.sht",
+          "msg": 6,
           "option_pos_lookup": [0, 1, 3, 6, 10, 11, 13, 16]
         },
         {
           "anm": "pl02.anm",
           "sht": "pl02b.sht",
+          "msg": 7,
           "option_pos_lookup": [0, 1, 3, 6, 10, 11, 13, 16]
         },
         {
           "anm": "pl02.anm",
           "sht": "pl02c.sht",
+          "msg": 8,
           "option_pos_lookup": [0, 1, 3, 6, 10, 11, 13, 16]
         }
       ],
+      "msg_face_anim_script": 33,
       "option": 16,
       "option_max": 18,
       "hitbox": 3.0,
