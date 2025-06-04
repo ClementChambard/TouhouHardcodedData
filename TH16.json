@@ -11,9 +11,9 @@
     "stars_first": 70,
     "difficulty_top_first": 81,
     "difficulty_side_first": 87,
-    "shottype_side_first": -1,
     "spellcard_endtime": 96,
     "boss_indicator": 112,
+    "shottype_side_first": -1,
     "demo_play": 119,
     "stage_clear": 120,
     "speech_bubble": 228,
@@ -22,80 +22,82 @@
     "boss_bar_first": 244
   },
   "effect": {
-    "eff2_startanm": 153
+    "eff2_startanm": 153,
+    "popup_text_sprite": 259
   },
-  "popup_text_sprite": 259,
-  "option_count": 6,
-  "players": [
-    {
-      "shottypes": [
-        {
-          "anm": "pl00.anm",
-          "sht": "pl00.sht",
-          "msg": 0,
-          "option_pos_lookup": [0, 1, 3, 6, 10, 15, 21, 22, 24, 27, 31, 36]
-        }
-      ],
-      "msg_face_anim_script": 0,
-      "option": 8,
-      "option_max": 9,
-      "hitbox": 3.0,
-      "grazebox": 5.0,
-      "itembox": 60.0,
-      "attractbox": 100.0
-    },
-    {
-      "shottypes": [
-        {
-          "anm": "pl01.anm",
-          "sht": "pl01.sht",
-          "msg": 1,
-          "option_pos_lookup": [0, 1, 3, 6, 10, 15, 21, 22, 24, 27, 31, 36]
-        }
-      ],
-      "msg_face_anim_script": 35,
-      "option": 11,
-      "option_max": 13,
-      "hitbox": 3.0,
-      "grazebox": 5.0,
-      "itembox": 60.0,
-      "attractbox": 100.0
-    },
-    {
-      "shottypes": [
-        {
-          "anm": "pl02.anm",
-          "sht": "pl02.sht",
-          "msg": 2,
-          "option_pos_lookup": [0, 1, 3, 6, 10, 15, 21, 22, 24, 27, 31, 36]
-        }
-      ],
-      "msg_face_anim_script": 0,
-      "option": 7,
-      "option_max": 8,
-      "hitbox": 3.0,
-      "grazebox": 5.0,
-      "itembox": 60.0,
-      "attractbox": 100.0
-    },
-    {
-      "shottypes": [
-        {
-          "anm": "pl03.anm",
-          "sht": "pl03.sht",
-          "msg": 3,
-          "option_pos_lookup": [0, 1, 3, 6, 10, 15, 21, 22, 24, 27, 31, 36]
-        }
-      ],
-      "msg_face_anim_script": 0,
-      "option": 11,
-      "option_max": 12,
-      "hitbox": 3.0,
-      "grazebox": 5.0,
-      "itembox": 60.0,
-      "attractbox": 100.0
-    }
-  ],
+  "player_data": {
+    "players": [
+      {
+        "shottypes": [
+          {
+            "anm": "pl00.anm",
+            "sht": "pl00.sht",
+            "msg": 0,
+            "option_pos_lookup": [0, 1, 3, 6, 10, 15, 21, 22, 24, 27, 31, 36]
+          }
+        ],
+        "msg_face_anim_script": 0,
+        "option": 8,
+        "option_max": 9,
+        "hitbox": 3.0,
+        "grazebox": 5.0,
+        "itembox": 60.0,
+        "attractbox": 100.0
+      },
+      {
+        "shottypes": [
+          {
+            "anm": "pl01.anm",
+            "sht": "pl01.sht",
+            "msg": 1,
+            "option_pos_lookup": [0, 1, 3, 6, 10, 15, 21, 22, 24, 27, 31, 36]
+          }
+        ],
+        "msg_face_anim_script": 35,
+        "option": 11,
+        "option_max": 13,
+        "hitbox": 3.0,
+        "grazebox": 5.0,
+        "itembox": 60.0,
+        "attractbox": 100.0
+      },
+      {
+        "shottypes": [
+          {
+            "anm": "pl02.anm",
+            "sht": "pl02.sht",
+            "msg": 2,
+            "option_pos_lookup": [0, 1, 3, 6, 10, 15, 21, 22, 24, 27, 31, 36]
+          }
+        ],
+        "msg_face_anim_script": 0,
+        "option": 7,
+        "option_max": 8,
+        "hitbox": 3.0,
+        "grazebox": 5.0,
+        "itembox": 60.0,
+        "attractbox": 100.0
+      },
+      {
+        "shottypes": [
+          {
+            "anm": "pl03.anm",
+            "sht": "pl03.sht",
+            "msg": 3,
+            "option_pos_lookup": [0, 1, 3, 6, 10, 15, 21, 22, 24, 27, 31, 36]
+          }
+        ],
+        "msg_face_anim_script": 0,
+        "option": 11,
+        "option_max": 12,
+        "hitbox": 3.0,
+        "grazebox": 5.0,
+        "itembox": 60.0,
+        "attractbox": 100.0
+      }
+    ],
+    "option_count": 6
+  }, 
   "item_anm_script_ids": [
     { "id_1": -1, "id_2": -1 },
     { "id_1": 112, "id_2": 134 },
@@ -4793,42 +4795,6 @@
           "msg_face_anim_index": 3,
           "msg_face_anm_script": 8,
           "front_ename_anm_script": 0
-        },
-        {
-          "spell_bg_anim_index": 0,
-          "spell_bg_anm_script": 0,
-          "stage_bg_visible_during_spell": 0,
-          "spell_portrait_anim_index": 0,
-          "spell_portrait_anm_script": 0,
-          "msg_ename_anim_index": 0,
-          "msg_ename_anm_script": 0,
-          "msg_face_anim_index": 0,
-          "msg_face_anm_script": 0,
-          "front_ename_anm_script": 0
-        },
-        {
-          "spell_bg_anim_index": 0,
-          "spell_bg_anm_script": 0,
-          "stage_bg_visible_during_spell": 0,
-          "spell_portrait_anim_index": 0,
-          "spell_portrait_anm_script": 0,
-          "msg_ename_anim_index": 0,
-          "msg_ename_anm_script": 0,
-          "msg_face_anim_index": 0,
-          "msg_face_anm_script": 0,
-          "front_ename_anm_script": 0
-        },
-        {
-          "spell_bg_anim_index": 0,
-          "spell_bg_anm_script": 0,
-          "stage_bg_visible_during_spell": 0,
-          "spell_portrait_anim_index": 0,
-          "spell_portrait_anm_script": 0,
-          "msg_ename_anim_index": 0,
-          "msg_ename_anm_script": 0,
-          "msg_face_anim_index": 0,
-          "msg_face_anm_script": 0,
-          "front_ename_anm_script": 0
         }
       ]
     },
@@ -4867,30 +4833,6 @@
           "msg_face_anim_index": -1,
           "msg_face_anm_script": -1,
           "front_ename_anm_script": -1
-        },
-        {
-          "spell_bg_anim_index": 0,
-          "spell_bg_anm_script": 0,
-          "stage_bg_visible_during_spell": 0,
-          "spell_portrait_anim_index": 0,
-          "spell_portrait_anm_script": 0,
-          "msg_ename_anim_index": 0,
-          "msg_ename_anm_script": 0,
-          "msg_face_anim_index": 0,
-          "msg_face_anm_script": 0,
-          "front_ename_anm_script": 0
-        },
-        {
-          "spell_bg_anim_index": 0,
-          "spell_bg_anm_script": 0,
-          "stage_bg_visible_during_spell": 0,
-          "spell_portrait_anim_index": 0,
-          "spell_portrait_anm_script": 0,
-          "msg_ename_anim_index": 0,
-          "msg_ename_anm_script": 0,
-          "msg_face_anim_index": 0,
-          "msg_face_anm_script": 0,
-          "front_ename_anm_script": 0
         }
       ]
     },
@@ -4929,30 +4871,6 @@
           "msg_face_anim_index": -1,
           "msg_face_anm_script": -1,
           "front_ename_anm_script": -1
-        },
-        {
-          "spell_bg_anim_index": 0,
-          "spell_bg_anm_script": 0,
-          "stage_bg_visible_during_spell": 0,
-          "spell_portrait_anim_index": 0,
-          "spell_portrait_anm_script": 0,
-          "msg_ename_anim_index": 0,
-          "msg_ename_anm_script": 0,
-          "msg_face_anim_index": 0,
-          "msg_face_anm_script": 0,
-          "front_ename_anm_script": 0
-        },
-        {
-          "spell_bg_anim_index": 0,
-          "spell_bg_anm_script": 0,
-          "stage_bg_visible_during_spell": 0,
-          "spell_portrait_anim_index": 0,
-          "spell_portrait_anm_script": 0,
-          "msg_ename_anim_index": 0,
-          "msg_ename_anm_script": 0,
-          "msg_face_anim_index": 0,
-          "msg_face_anm_script": 0,
-          "front_ename_anm_script": 0
         }
       ]
     },
@@ -4991,30 +4909,6 @@
           "msg_face_anim_index": -1,
           "msg_face_anm_script": -1,
           "front_ename_anm_script": 2
-        },
-        {
-          "spell_bg_anim_index": 0,
-          "spell_bg_anm_script": 0,
-          "stage_bg_visible_during_spell": 0,
-          "spell_portrait_anim_index": 0,
-          "spell_portrait_anm_script": 0,
-          "msg_ename_anim_index": 0,
-          "msg_ename_anm_script": 0,
-          "msg_face_anim_index": 0,
-          "msg_face_anm_script": 0,
-          "front_ename_anm_script": 0
-        },
-        {
-          "spell_bg_anim_index": 0,
-          "spell_bg_anm_script": 0,
-          "stage_bg_visible_during_spell": 0,
-          "spell_portrait_anim_index": 0,
-          "spell_portrait_anm_script": 0,
-          "msg_ename_anim_index": 0,
-          "msg_ename_anm_script": 0,
-          "msg_face_anim_index": 0,
-          "msg_face_anm_script": 0,
-          "front_ename_anm_script": 0
         }
       ]
     },
@@ -5065,18 +4959,6 @@
           "msg_face_anim_index": 4,
           "msg_face_anm_script": 11,
           "front_ename_anm_script": -1
-        },
-        {
-          "spell_bg_anim_index": 0,
-          "spell_bg_anm_script": 0,
-          "stage_bg_visible_during_spell": 0,
-          "spell_portrait_anim_index": 0,
-          "spell_portrait_anm_script": 0,
-          "msg_ename_anim_index": 0,
-          "msg_ename_anm_script": 0,
-          "msg_face_anim_index": 0,
-          "msg_face_anm_script": 0,
-          "front_ename_anm_script": 0
         }
       ]
     },
@@ -5127,18 +5009,6 @@
           "msg_face_anim_index": 4,
           "msg_face_anm_script": 8,
           "front_ename_anm_script": -1
-        },
-        {
-          "spell_bg_anim_index": 0,
-          "spell_bg_anm_script": 0,
-          "stage_bg_visible_during_spell": 0,
-          "spell_portrait_anim_index": 0,
-          "spell_portrait_anm_script": 0,
-          "msg_ename_anim_index": 0,
-          "msg_ename_anm_script": 0,
-          "msg_face_anim_index": 0,
-          "msg_face_anm_script": 0,
-          "front_ename_anm_script": 0
         }
       ]
     },
@@ -5177,30 +5047,6 @@
           "msg_face_anim_index": -1,
           "msg_face_anm_script": -1,
           "front_ename_anm_script": -1
-        },
-        {
-          "spell_bg_anim_index": 0,
-          "spell_bg_anm_script": 0,
-          "stage_bg_visible_during_spell": 0,
-          "spell_portrait_anim_index": 0,
-          "spell_portrait_anm_script": 0,
-          "msg_ename_anim_index": 0,
-          "msg_ename_anm_script": 0,
-          "msg_face_anim_index": 0,
-          "msg_face_anm_script": 0,
-          "front_ename_anm_script": 0
-        },
-        {
-          "spell_bg_anim_index": 0,
-          "spell_bg_anm_script": 0,
-          "stage_bg_visible_during_spell": 0,
-          "spell_portrait_anim_index": 0,
-          "spell_portrait_anm_script": 0,
-          "msg_ename_anim_index": 0,
-          "msg_ename_anm_script": 0,
-          "msg_face_anim_index": 0,
-          "msg_face_anm_script": 0,
-          "front_ename_anm_script": 0
         }
       ]
     },
@@ -5251,18 +5097,6 @@
           "msg_face_anim_index": 5,
           "msg_face_anm_script": 8,
           "front_ename_anm_script": -1
-        },
-        {
-          "spell_bg_anim_index": 0,
-          "spell_bg_anm_script": 0,
-          "stage_bg_visible_during_spell": 0,
-          "spell_portrait_anim_index": 0,
-          "spell_portrait_anm_script": 0,
-          "msg_ename_anim_index": 0,
-          "msg_ename_anm_script": 0,
-          "msg_face_anim_index": 0,
-          "msg_face_anm_script": 0,
-          "front_ename_anm_script": 0
         }
       ]
     }

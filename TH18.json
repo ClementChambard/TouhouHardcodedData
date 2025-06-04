@@ -1,6 +1,5 @@
 {
   "version": 18,
-  "option_count": 4,
   "gui": {
     "get_spell_card_bonus": 49,
     "bonus_failed": 50,
@@ -23,79 +22,82 @@
     "boss_bar_first": 378
   },
   "effect": {
-    "eff2_startanm": 150
+    "eff2_startanm": 150,
+    "popup_text_sprite": 289
   },
-  "popup_text_sprite": 289,
-  "players": [
-    {
-      "shottypes": [
-        {
-          "anm": "pl00.anm",
-          "sht": "pl00.sht",
-          "msg": 0,
-          "option_pos_lookup": [0, 1, 3, 6, 10, 11, 13, 16]
-        }
-      ],
-      "msg_face_anim_script": 0,
-      "option": 15,
-      "option_max": 16,
-      "hitbox": 3.0,
-      "grazebox": 5.0,
-      "itembox": 60.0,
-      "attractbox": 100.0
-    },
-    {
-      "shottypes": [
-        {
-          "anm": "pl01.anm",
-          "sht": "pl01.sht",
-          "msg": 1,
-          "option_pos_lookup": [0, 1, 3, 6, 10, 11, 13, 16]
-        }
-      ],
-      "msg_face_anim_script": 0,
-      "option": 17,
-      "option_max": 18,
-      "hitbox": 3.0,
-      "grazebox": 5.0,
-      "itembox": 60.0,
-      "attractbox": 100.0
-    },
-    {
-      "shottypes": [
-        {
-          "anm": "pl02.anm",
-          "sht": "pl02.sht",
-          "msg": 2,
-          "option_pos_lookup": [0, 1, 3, 6, 10, 11, 13, 16]
-        }
-      ],
-      "msg_face_anim_script": 0,
-      "option": 12,
-      "option_max": 13,
-      "hitbox": 3.0,
-      "grazebox": 5.0,
-      "itembox": 60.0,
-      "attractbox": 100.0
-    },
-    {
-      "shottypes": [
-        {
-          "anm": "pl03.anm",
-          "sht": "pl03.sht",
-          "msg": 3,
-          "option_pos_lookup": [0, 1, 3, 6, 10, 11, 13, 16]
-        }
-      ],
-      "msg_face_anim_script": 0,
-      "option": 11,
-      "option_max": 12,
-      "hitbox": 3.0,
-      "grazebox": 5.0,
-      "itembox": 60.0,
-      "attractbox": 100.0
-    }
-  ],
+  "player_data": {
+    "players": [
+      {
+        "shottypes": [
+          {
+            "anm": "pl00.anm",
+            "sht": "pl00.sht",
+            "msg": 0,
+            "option_pos_lookup": [0, 1, 3, 6, 10, 11, 13, 16]
+          }
+        ],
+        "msg_face_anim_script": 0,
+        "option": 15,
+        "option_max": 16,
+        "hitbox": 3.0,
+        "grazebox": 5.0,
+        "itembox": 60.0,
+        "attractbox": 100.0
+      },
+      {
+        "shottypes": [
+          {
+            "anm": "pl01.anm",
+            "sht": "pl01.sht",
+            "msg": 1,
+            "option_pos_lookup": [0, 1, 3, 6, 10, 11, 13, 16]
+          }
+        ],
+        "msg_face_anim_script": 0,
+        "option": 17,
+        "option_max": 18,
+        "hitbox": 3.0,
+        "grazebox": 5.0,
+        "itembox": 60.0,
+        "attractbox": 100.0
+      },
+      {
+        "shottypes": [
+          {
+            "anm": "pl02.anm",
+            "sht": "pl02.sht",
+            "msg": 2,
+            "option_pos_lookup": [0, 1, 3, 6, 10, 11, 13, 16]
+          }
+        ],
+        "msg_face_anim_script": 0,
+        "option": 12,
+        "option_max": 13,
+        "hitbox": 3.0,
+        "grazebox": 5.0,
+        "itembox": 60.0,
+        "attractbox": 100.0
+      },
+      {
+        "shottypes": [
+          {
+            "anm": "pl03.anm",
+            "sht": "pl03.sht",
+            "msg": 3,
+            "option_pos_lookup": [0, 1, 3, 6, 10, 11, 13, 16]
+          }
+        ],
+        "msg_face_anim_script": 0,
+        "option": 11,
+        "option_max": 12,
+        "hitbox": 3.0,
+        "grazebox": 5.0,
+        "itembox": 60.0,
+        "attractbox": 100.0
+      }
+    ],
+    "option_count": 4
+  },
   "item_anm_script_ids": [
     { "id_1": -1, "id_2": -1 },
     { "id_1": 112, "id_2": 134 },
@@ -5299,42 +5301,6 @@
           "msg_face_anim_index": 3,
           "msg_face_anm_src": 9,
           "front_ename_anm_src": 0
-        },
-        {
-          "spell_bg_anim_index": 0,
-          "spell_bg_anm_script": 0,
-          "stage_bg_visible_during_spell": 0,
-          "spell_portrait_anim_index": 0,
-          "spell_portrait_anm_script": 0,
-          "msg_ename_anim_index": 0,
-          "msg_ename_anm_script": 0,
-          "msg_face_anim_index": 0,
-          "msg_face_anm_src": 0,
-          "front_ename_anm_src": 0
-        },
-        {
-          "spell_bg_anim_index": 0,
-          "spell_bg_anm_script": 0,
-          "stage_bg_visible_during_spell": 0,
-          "spell_portrait_anim_index": 0,
-          "spell_portrait_anm_script": 0,
-          "msg_ename_anim_index": 0,
-          "msg_ename_anm_script": 0,
-          "msg_face_anim_index": 0,
-          "msg_face_anm_src": 0,
-          "front_ename_anm_src": 0
-        },
-        {
-          "spell_bg_anim_index": 0,
-          "spell_bg_anm_script": 0,
-          "stage_bg_visible_during_spell": 0,
-          "spell_portrait_anim_index": 0,
-          "spell_portrait_anm_script": 0,
-          "msg_ename_anim_index": 0,
-          "msg_ename_anm_script": 0,
-          "msg_face_anim_index": 0,
-          "msg_face_anm_src": 0,
-          "front_ename_anm_src": 0
         }
       ]
     },
@@ -5373,30 +5339,6 @@
           "msg_face_anim_index": -1,
           "msg_face_anm_src": -1,
           "front_ename_anm_src": -1
-        },
-        {
-          "spell_bg_anim_index": 0,
-          "spell_bg_anm_script": 0,
-          "stage_bg_visible_during_spell": 0,
-          "spell_portrait_anim_index": 0,
-          "spell_portrait_anm_script": 0,
-          "msg_ename_anim_index": 0,
-          "msg_ename_anm_script": 0,
-          "msg_face_anim_index": 0,
-          "msg_face_anm_src": 0,
-          "front_ename_anm_src": 0
-        },
-        {
-          "spell_bg_anim_index": 0,
-          "spell_bg_anm_script": 0,
-          "stage_bg_visible_during_spell": 0,
-          "spell_portrait_anim_index": 0,
-          "spell_portrait_anm_script": 0,
-          "msg_ename_anim_index": 0,
-          "msg_ename_anm_script": 0,
-          "msg_face_anim_index": 0,
-          "msg_face_anm_src": 0,
-          "front_ename_anm_src": 0
         }
       ]
     },
@@ -5435,30 +5377,6 @@
           "msg_face_anim_index": -1,
           "msg_face_anm_src": -1,
           "front_ename_anm_src": -1
-        },
-        {
-          "spell_bg_anim_index": 0,
-          "spell_bg_anm_script": 0,
-          "stage_bg_visible_during_spell": 0,
-          "spell_portrait_anim_index": 0,
-          "spell_portrait_anm_script": 0,
-          "msg_ename_anim_index": 0,
-          "msg_ename_anm_script": 0,
-          "msg_face_anim_index": 0,
-          "msg_face_anm_src": 0,
-          "front_ename_anm_src": 0
-        },
-        {
-          "spell_bg_anim_index": 0,
-          "spell_bg_anm_script": 0,
-          "stage_bg_visible_during_spell": 0,
-          "spell_portrait_anim_index": 0,
-          "spell_portrait_anm_script": 0,
-          "msg_ename_anim_index": 0,
-          "msg_ename_anm_script": 0,
-          "msg_face_anim_index": 0,
-          "msg_face_anm_src": 0,
-          "front_ename_anm_src": 0
         }
       ]
     },
@@ -5497,30 +5415,6 @@
           "msg_face_anim_index": -1,
           "msg_face_anm_src": -1,
           "front_ename_anm_src": -1
-        },
-        {
-          "spell_bg_anim_index": 0,
-          "spell_bg_anm_script": 0,
-          "stage_bg_visible_during_spell": 0,
-          "spell_portrait_anim_index": 0,
-          "spell_portrait_anm_script": 0,
-          "msg_ename_anim_index": 0,
-          "msg_ename_anm_script": 0,
-          "msg_face_anim_index": 0,
-          "msg_face_anm_src": 0,
-          "front_ename_anm_src": 0
-        },
-        {
-          "spell_bg_anim_index": 0,
-          "spell_bg_anm_script": 0,
-          "stage_bg_visible_during_spell": 0,
-          "spell_portrait_anim_index": 0,
-          "spell_portrait_anm_script": 0,
-          "msg_ename_anim_index": 0,
-          "msg_ename_anm_script": 0,
-          "msg_face_anim_index": 0,
-          "msg_face_anm_src": 0,
-          "front_ename_anm_src": 0
         }
       ]
     },
@@ -5559,30 +5453,6 @@
           "msg_face_anim_index": -1,
           "msg_face_anm_src": -1,
           "front_ename_anm_src": -1
-        },
-        {
-          "spell_bg_anim_index": 0,
-          "spell_bg_anm_script": 0,
-          "stage_bg_visible_during_spell": 0,
-          "spell_portrait_anim_index": 0,
-          "spell_portrait_anm_script": 0,
-          "msg_ename_anim_index": 0,
-          "msg_ename_anm_script": 0,
-          "msg_face_anim_index": 0,
-          "msg_face_anm_src": 0,
-          "front_ename_anm_src": 0
-        },
-        {
-          "spell_bg_anim_index": 0,
-          "spell_bg_anm_script": 0,
-          "stage_bg_visible_during_spell": 0,
-          "spell_portrait_anim_index": 0,
-          "spell_portrait_anm_script": 0,
-          "msg_ename_anim_index": 0,
-          "msg_ename_anm_script": 0,
-          "msg_face_anim_index": 0,
-          "msg_face_anm_src": 0,
-          "front_ename_anm_src": 0
         }
       ]
     },
@@ -5621,30 +5491,6 @@
           "msg_face_anim_index": 4,
           "msg_face_anm_src": 8,
           "front_ename_anm_src": -1
-        },
-        {
-          "spell_bg_anim_index": 0,
-          "spell_bg_anm_script": 0,
-          "stage_bg_visible_during_spell": 0,
-          "spell_portrait_anim_index": 0,
-          "spell_portrait_anm_script": 0,
-          "msg_ename_anim_index": 0,
-          "msg_ename_anm_script": 0,
-          "msg_face_anim_index": 0,
-          "msg_face_anm_src": 0,
-          "front_ename_anm_src": 0
-        },
-        {
-          "spell_bg_anim_index": 0,
-          "spell_bg_anm_script": 0,
-          "stage_bg_visible_during_spell": 0,
-          "spell_portrait_anim_index": 0,
-          "spell_portrait_anm_script": 0,
-          "msg_ename_anim_index": 0,
-          "msg_ename_anm_script": 0,
-          "msg_face_anim_index": 0,
-          "msg_face_anm_src": 0,
-          "front_ename_anm_src": 0
         }
       ]
     },
@@ -5683,30 +5529,6 @@
           "msg_face_anim_index": 4,
           "msg_face_anm_src": 8,
           "front_ename_anm_src": 4
-        },
-        {
-          "spell_bg_anim_index": -1,
-          "spell_bg_anm_script": 0,
-          "stage_bg_visible_during_spell": 1,
-          "spell_portrait_anim_index": 3,
-          "spell_portrait_anm_script": 21,
-          "msg_ename_anim_index": 3,
-          "msg_ename_anm_script": 18,
-          "msg_face_anim_index": 3,
-          "msg_face_anm_src": 12,
-          "front_ename_anm_src": 4
-        },
-        {
-          "spell_bg_anim_index": 0,
-          "spell_bg_anm_script": 0,
-          "stage_bg_visible_during_spell": 0,
-          "spell_portrait_anim_index": 0,
-          "spell_portrait_anm_script": 0,
-          "msg_ename_anim_index": 0,
-          "msg_ename_anm_script": 0,
-          "msg_face_anim_index": 0,
-          "msg_face_anm_src": 0,
-          "front_ename_anm_src": 0
         }
       ]
     },
